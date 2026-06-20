@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="bg-[#335F90] text-white">
         <div className="max-w-7xl mx-auto px-6 py-2">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-xs sm:text-sm font-medium">
-            <span>sales@hitanlifesciences.com</span>
+            <span>Hitanlifesciences@yahoo.com</span>
 
             <span className="hidden sm:block text-white/60">|</span>
 

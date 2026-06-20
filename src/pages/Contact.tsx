@@ -36,7 +36,11 @@ export default function Contact() {
           >
             <h3 className="font-bold text-2xl text-[#0E2A47]">Email</h3>
 
-            <p className="mt-4 text-[#2D3748]">sales@hitanlifesciences.com</p>
+            <p className="mt-4 text-[#2D3748]">
+              Sales@hitanlife.in
+              <br />
+              Hitanlifesciences@yahoo.com
+            </p>
           </div>
 
           <div

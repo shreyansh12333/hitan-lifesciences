@@ -149,7 +149,11 @@ export default function Footer() {
             </h4>
 
             <ul className="space-y-2 text-[#F8F6F2]/70 text-sm">
-              <li>sales@hitanlifesciences.com</li>
+              <li>
+                Sales@hitanlife.in
+                <br />
+                Hitanlifesciences@yahoo.com
+              </li>
               <li>+91 72176 38558</li>
               <li>
                 {" "}
