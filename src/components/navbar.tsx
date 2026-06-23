@@ -18,9 +18,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 py-2">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-xs sm:text-sm font-medium">
             <span>Hitanlifesciences@yahoo.com</span>
-
             <span className="hidden sm:block text-white/60">|</span>
-
             <span>+91 72176 38558</span>
           </div>
         </div>
@@ -28,17 +26,16 @@ export default function Navbar() {
 
       {/* Navbar */}
       <nav className="w-full bg-[#F8F6F2] border-b border-[#C6A25B]/20 shadow-sm">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex items-center justify-between h-28">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          <div className="flex items-center justify-between h-24">
             {/* Logo */}
-            <Link to="/" className="flex items-center">
+            <Link to="/" className="flex items-center flex-shrink-0">
               <img
                 src={logo}
                 alt="Hitan Life Sciences"
-                className="h-30 md:h-44 w-auto object-contain"
+                className="h-24 md:h-28 w-auto object-contain -ml-3 md:ml-0"
               />
             </Link>
-
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-10">
               {links.map((link) => (
