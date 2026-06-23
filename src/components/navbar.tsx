@@ -33,7 +33,7 @@ export default function Navbar() {
               <img
                 src={logo}
                 alt="Hitan Life Sciences"
-                className="h-24 md:h-28 w-auto object-contain -ml-3 md:ml-0"
+                className="h-34 md:h-38 w-auto object-contain -ml-3 md:ml-0"
               />
             </Link>
             {/* Desktop Navigation */}
@@ -79,7 +79,7 @@ export default function Navbar() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="md:hidden text-[#0E2A47] text-2xl"
+              className="md:hidden text-[#0E2A47] text-4xl"
               aria-label="Toggle menu"
             >
               {isOpen ? "✕" : "☰"}

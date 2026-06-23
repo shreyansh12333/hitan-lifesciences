@@ -8,8 +8,10 @@ export default function WhatsappButton() {
       rel="noopener noreferrer"
       className="
         fixed
-        bottom-6
-        right-6
+        bottom-2
+        sm:bottom-6
+        sm:right-6
+        right-1
         z-50
         bg-green-500
         hover:bg-green-600
@@ -22,7 +24,7 @@ export default function WhatsappButton() {
         duration-300
       "
     >
-      <FaWhatsapp size={32} />
+      <FaWhatsapp className="sm:w-7 sm:h-7 md:w-10 md:h-10 h-5 w-5" />
     </a>
   );
 }

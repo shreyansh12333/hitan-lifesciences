@@ -3,12 +3,12 @@ import heroImage from "../assets/hero_image.jpeg";
 export default function Hero() {
   return (
     <section className="bg-[#F8F6F2]">
-      <div className="max-w-7xl mx-auto px-6 py-16 lg:min-h-[85vh] flex items-center">
+      <div className="max-w-7xl mx-auto px-6 py-8 lg:min-h-[85vh] flex items-center">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center w-full">
           {/* Left Content */}
 
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
-            <div className="inline-flex items-center justify-center rounded-full border border-[#C6A25B]/40 bg-white px-4 py-2 text-sm font-medium text-[#335F90] mb-6">
+            <div className="inline-flex items-center justify-center rounded-full border border-[#C6A25B]/40 bg-white px-4 py-1 text-sm font-medium text-[#335F90] mb-6">
               Trusted Since 2006
             </div>
 
